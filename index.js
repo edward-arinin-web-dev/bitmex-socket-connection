@@ -7,7 +7,7 @@ const createSocket = require('./lib/createSocket');
 const deltaParser = require('./lib/deltaParser');
 const getStreams = require('./lib/getStreams');
 
-const DEFAULT_MAX_TABLE_LEN = 10000;
+const DEFAULT_MAX_TABLE_LEN = 1001;
 
 const endpoints = {
   production: 'wss://www.bitmex.com/realtime',
